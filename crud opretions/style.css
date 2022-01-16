@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: azure;
+}
+.main{
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: center;
+   margin-top: 30px;
+   flex-direction: column;
+   align-items: center;
+    
+
+}
+.main #inputBox {
+    width: 350px;
+    height: 35px;
+    border:2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+ .button{
+    width: 80px;
+    height: 35px;
+    background-color: #24e09b;
+    color: white;
+    font-weight:bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.viewBody{
+    width:400px;
+    height: 300px;
+    border: 2px solid green;
+    padding: 10px;
+}

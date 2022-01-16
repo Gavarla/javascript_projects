@@ -1,0 +1,43 @@
+.divmain{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.covied19Country{
+ display: flex;
+ justify-content:center;   
+  margin-top: 30px;  
+}
+.covied19{
+    width: 500px;
+    height: 200px;
+    border: 1px solid gray;
+
+}
+.covied19Country .btn{
+  width:100px;
+  height: 30px;
+  background-color: gray;
+  margin: 10px ;
+  border: 2px solid gray;
+  border-radius: 10px;
+  outline: none;
+
+}
+.covied19Country .county{
+  margin: 10px; 
+  border: 2px solid gray;
+  outline: none;
+  width: 200px;
+}
+.covied19 .display{
+  height: 100px;
+  width: 200px;
+  border: 2px solid gray;
+  margin-left: 90px;
+        
+}
+
+  
